@@ -24,12 +24,15 @@
   display:flex;
   border:10px solid mistyrose;
   height:100vh;
-  flex-wrap: wrap;
-  align-content: stretch;
+  flex-direction: row;
 }
 
 .box {
   width:33.333%;
+}
+
+header {
+  margin: 10px 0
 }
 
 .dropbtn {
@@ -39,6 +42,8 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
+    border-radius: 20px;
+    font-family: system-ui;
 }
 
 .dropdown {
@@ -53,6 +58,8 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    cursor: pointer;
+
 }
 
 .dropdown-content a {
@@ -62,7 +69,7 @@
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #e6e3e3}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -80,4 +87,6 @@
     border: none;
     cursor: pointer;
     width: 125px;
+    border-radius: 20px;
+    font-family: system-ui;
 }
