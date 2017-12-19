@@ -6,4 +6,8 @@ $(document).ready(function() {
   $('.wrap-reverse').click(function() {
     $('.container').css('flex-wrap', 'wrap-reverse');
   });
+
+  $('.reset').click(function() {
+    $('.container').removeAttr('style');
+  });
 });
