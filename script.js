@@ -67,6 +67,7 @@ $(document).ready(function() {
   //grow
 
   $('.flex-grow').click(function() {
+    $('.box10').css('flex-grow', '0');
     $('.box5').css('flex-grow', '1');
   });
 
