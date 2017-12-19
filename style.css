@@ -1,5 +1,22 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+body {
+  font-family:sans-serif;
+  background-color: aliceblue;
+}
+
+header {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.title {
+  font-size:50px;
+  margin:0;
+  padding-bottom:20px;
+  color: #56a79a;
+}
+
 .box {
   color:white;
   font-size: 100px;
@@ -7,6 +24,16 @@
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
 }
+
+.f { color:#1abc9c;}
+.l { color:#3498db;}
+.e { color:#9b59b6;}
+.x { color:#34495e;}
+.b { color:#f1c40f;}
+.o { color:#e67e22;}
+.x2 { color:#e74c3c;}
+.e2 { color:#2ecc71;}
+.r { color:#16a085;}
 
 .box1 { background:#1abc9c;}
 .box2 { background:#3498db;}
@@ -25,18 +52,11 @@
   border:10px solid mistyrose;
   height:100vh;
   flex-direction: row;
-}
-
-.box {
-  width:33.333%;
-}
-
-header {
-  margin: 10px 0
+  justify-content: center;
 }
 
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #2ecc71;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -80,7 +100,7 @@ header {
 }
 
 .reset {
-    background-color: #f44336;
+    background-color: #e74c3c;
     color: white;
     padding: 16px;
     font-size: 16px;
